@@ -3,6 +3,23 @@
   font-family: "Roboto-Regular", sans-serif;
   src: url(./Roboto/Roboto-Regular.ttf);
 }
+/*Mapa*/
+.redes-facebook {
+  color: blue;
+}
+
+.redes-instagram {
+  color: #a73272;
+}
+
+.redes-twitter {
+  color: #0c78c0;
+}
+
+.redes-youtube {
+  color: red;
+}
+
 /*Estructura*/
 /*Titulos*/
 h1 {
@@ -32,13 +49,13 @@ img {
 }
 
 /*animaciones*/
-.boton {
+.boton, .boton-nuevo {
   color: white;
   background-color: #0c71ca;
   transition: all 1s;
 }
 
-.boton:hover {
+.boton:hover, .boton-nuevo:hover {
   border: #12293d solid 10px;
 }
 
@@ -58,7 +75,35 @@ img {
     opacity: 1;
   }
 }
-/*footer*/
+/*EXTEND*/
+.boton-nuevo {
+  background-color: #070731;
+}
+
+/*Mixin*/
+.facebook {
+  padding: 5px;
+  margin: 5px;
+}
+
+.instagram {
+  padding: 5px;
+  margin: 5px;
+}
+
+.twitter {
+  padding: 5px;
+  margin: 5px;
+}
+
+.youtube {
+  padding: 5px;
+  margin: 5px;
+}
+
+/*ACLARACIÓN: se que este mixin no sirve de mucho ya que son todos los mismos valores 
+pero es a modo de ejemplo porque realmente no necesito en mi proyecto uno por el momento*/
+/*FOOTER*/
 footer {
   background-color: black;
   padding: 10px;

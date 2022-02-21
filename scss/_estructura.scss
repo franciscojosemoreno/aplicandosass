@@ -46,7 +46,31 @@ img {
     opacity: 1;
   }
 }
-/*footer*/
+/*EXTEND*/
+.boton-nuevo {
+  @extend .boton;
+  background-color: rgb(7, 7, 49);
+}
+/*Mixin*/
+@mixin pym($paddingg, $marginn) {
+  padding: $paddingg;
+  margin: $marginn;
+}
+.facebook {
+  @include pym(5px, 5px);
+}
+.instagram {
+  @include pym(5px, 5px);
+}
+.twitter {
+  @include pym(5px, 5px);
+}
+.youtube {
+  @include pym(5px, 5px);
+}
+/*ACLARACIÓN: se que este mixin no sirve de mucho ya que son todos los mismos valores 
+pero es a modo de ejemplo porque realmente no necesito en mi proyecto uno por el momento*/
+/*FOOTER*/
 footer {
   background-color: $fondoDos;
   padding: 10px;

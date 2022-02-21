@@ -22,6 +22,37 @@ h3 {
 a {
   color: antiquewhite;
 }
+.redes-facebook {
+  color: blue;
+}
+
+.redes-instagram {
+  color: #a73272;
+}
+
+.redes-twitter {
+  color: #0c78c0;
+}
+
+.redes-youtube {
+  color: red;
+}
+.facebook {
+  padding: 5px;
+  margin: 5px;
+}
+.instagram {
+  padding: 5px;
+  margin: 5px;
+}
+.twitter {
+  padding: 5px;
+  margin: 5px;
+}
+.youtube {
+  padding: 5px;
+  margin: 5px;
+}
 .centrarTexto {
   text-align: center;
 }
@@ -114,6 +145,9 @@ a:hover {
 }
 .boton:hover {
   border: #12293d solid 10px;
+}
+.boton-nuevo {
+  background-color: #070731;
 }
 .imagenFondo {
   background-image: linear-gradient(#12293d, white);
